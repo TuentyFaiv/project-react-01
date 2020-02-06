@@ -4,6 +4,7 @@
   "description": "Project React 01",
   "main": "index.js",
   "scripts": {
+    "now-build": "npm run build",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
